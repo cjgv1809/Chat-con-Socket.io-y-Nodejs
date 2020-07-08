@@ -1,0 +1,100 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #222831;
+}
+
+h1{
+    text-align: center;
+    margin: 25px;
+    color: #fff;
+}
+
+#main-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#messages{
+    width: 70%;
+    margin: auto;
+    height: auto;
+    overflow-y: scroll;
+    border: 1px solid #eee;
+    box-shadow: 0 0 20px 15px #ccc inset;
+}
+
+.message{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: #222222;
+    color: #eee;
+}
+
+#nickname{
+    margin: auto;
+    width: auto;
+    margin-top: 25px;
+    padding: 12px;
+    background-color: #222222;
+    color: #fff;
+    border: 1px solid white;
+    font-size: medium;
+    border-radius: 10px;
+}
+
+#nickname:focus{
+    box-shadow: 0px 0px 3px #fff;
+}
+
+#text{
+    margin: auto;
+    width: auto;
+    margin-top: 20px;
+    padding: 12px;
+    max-width: 250px;
+    background-color: #222222;
+    color: #fff;
+    border: 1px solid white;
+    font-size: large;
+    border-radius: 10px;
+}
+
+#text:focus{
+    box-shadow: 0px 0px 3px #fff;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.btn:first-child{
+    margin-right: 10px;
+}
+
+.btn:last-child{
+    margin-left: 10px;
+}
+
+.btn{
+    font-size: medium;
+    width: 150px;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 25px;
+    color: #fff;
+    background-color: #393e46;
+    outline: none;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #393e46;
+}
+
